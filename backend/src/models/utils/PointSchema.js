@@ -9,6 +9,7 @@ const PointSchema = new mongoose.Schema({
   coordinates: {
     type: [Number],
     required: true,
-  },
+  }
 })
+
 module.exports = PointSchema
